@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.meowcat",
+    "module": "kato-gradle-plugin",
+    "version": "0.1.0-dev31",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.johnrengelman.shadow",
+          "module": "com.github.johnrengelman.shadow.gradle.plugin",
+          "version": {
+            "requires": "7.0.0"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.2"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-util",
+          "version": {
+            "requires": "9.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kato-gradle-plugin-0.1.0-dev31.jar",
+          "url": "kato-gradle-plugin-0.1.0-dev31.jar",
+          "size": 16793,
+          "sha512": "a938ec7ea783593bdc018ea697b2a52cf2fb7a38ae5d6f933421d278310e203b0709b3b890540b538a9474384a08df74ccf5f8c90e18c844e4cb6a283ea759e3",
+          "sha256": "d7bd932e1b7122d466a621595a599f251a0540e44d198dce68d040fbf58785a8",
+          "sha1": "54b45b9a428cc853feb14049049b85e6192682c6",
+          "md5": "f3abd69626a8673865f92466f5d6e61b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.johnrengelman.shadow",
+          "module": "com.github.johnrengelman.shadow.gradle.plugin",
+          "version": {
+            "requires": "7.0.0"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.2"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-util",
+          "version": {
+            "requires": "9.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kato-gradle-plugin-0.1.0-dev31.jar",
+          "url": "kato-gradle-plugin-0.1.0-dev31.jar",
+          "size": 16793,
+          "sha512": "a938ec7ea783593bdc018ea697b2a52cf2fb7a38ae5d6f933421d278310e203b0709b3b890540b538a9474384a08df74ccf5f8c90e18c844e4cb6a283ea759e3",
+          "sha256": "d7bd932e1b7122d466a621595a599f251a0540e44d198dce68d040fbf58785a8",
+          "sha1": "54b45b9a428cc853feb14049049b85e6192682c6",
+          "md5": "f3abd69626a8673865f92466f5d6e61b"
+        }
+      ]
+    }
+  ]
+}
