@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.itsusinn.pkg",
+    "module": "plugin",
+    "version": "1.2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.johnrengelman.shadow",
+          "module": "com.github.johnrengelman.shadow.gradle.plugin",
+          "version": {
+            "requires": "7.0.0"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.2"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-util",
+          "version": {
+            "requires": "9.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "plugin-1.2.0.jar",
+          "url": "plugin-1.2.0.jar",
+          "size": 35021,
+          "sha512": "ad2cda4f7984e1fc233e11f0e6e10a923862e53ec402570d86fbdbb7e2b9e9ca342d5270d340116d9ddcb2819587d05706cd030528fb9c197ac13ef92b7ec2db",
+          "sha256": "e5c8d2e89ef080ef3fabc278c9672ef381ea48b23ecb4e39ad4c4cc97278ba7f",
+          "sha1": "aff17cb11a5365756e07f7fa7813b034dc200975",
+          "md5": "5dcdbb8cf35898bb9b5d92bbc5841eaa"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.johnrengelman.shadow",
+          "module": "com.github.johnrengelman.shadow.gradle.plugin",
+          "version": {
+            "requires": "7.0.0"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.2"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-util",
+          "version": {
+            "requires": "9.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "plugin-1.2.0.jar",
+          "url": "plugin-1.2.0.jar",
+          "size": 35021,
+          "sha512": "ad2cda4f7984e1fc233e11f0e6e10a923862e53ec402570d86fbdbb7e2b9e9ca342d5270d340116d9ddcb2819587d05706cd030528fb9c197ac13ef92b7ec2db",
+          "sha256": "e5c8d2e89ef080ef3fabc278c9672ef381ea48b23ecb4e39ad4c4cc97278ba7f",
+          "sha1": "aff17cb11a5365756e07f7fa7813b034dc200975",
+          "md5": "5dcdbb8cf35898bb9b5d92bbc5841eaa"
+        }
+      ]
+    }
+  ]
+}
